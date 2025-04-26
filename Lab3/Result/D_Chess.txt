@@ -1,0 +1,74 @@
+Chess: Total transactions : 3196
+
+Apriori:
+
+(Min_sup = 70%)
+Computation time: 3744.40 seconds
+Total frequent itemsets: 48731
+Runtime: 3744.40 seconds
+Memory Usage: 19.4375 MB
+
+(Min_sup = 75%)
+Computation time: 1746.00 seconds
+Total frequent itemsets: 20993
+Runtime: 1746.00 seconds
+Memory Usage: 10.9766 MB
+
+(Min_sup = 80%)
+Computation time: 414.97 seconds
+Total frequent itemsets: 8227
+Runtime: 414.97 seconds
+Memory Usage: 7.3125 MB
+
+(Min_sup = 85%)
+Computation time: 114.71 seconds
+Total frequent itemsets: 2669
+Runtime: 114.71 seconds
+Memory Usage: 4.4570 MB
+
+
+(Min_sup = 90%)
+Computation time: 15.74 seconds
+Total frequent itemsets: 622
+Runtime: 15.74 seconds
+Memory Usage: 0.6289 MB
+
+(Min_sup = 95%)
+Computation time: 0.90 seconds
+Total frequent itemsets: 77
+Runtime: 0.90 seconds
+Memory Usage: 0.0742 MB
+
+
+
+FP_Growth:
+
+(Min_sup = 70% / 2237.2)
+Total memory usage: 32.27 MB
+Total execution time: 61.67 seconds
+Total number of frequent items: 48731
+
+(Min_sup = 75% / 2397)
+Total memory usage: 14.34 MB
+Total execution time: 27.30 seconds
+Total number of frequent items: 20993
+
+(Min_sup = 80% / 2556.8)
+Total memory usage: 6.49 MB
+Total execution time: 11.40 seconds
+Total number of frequent items: 8227
+
+(Min_sup = 85% / 2716.6)
+Total memory usage: 2.49 MB
+Total execution time: 3.89 seconds
+Total number of frequent items: 2669
+
+(Min_sup = 90% / 2876.4)
+Total memory usage: 1.16 MB
+Total execution time: 0.97 seconds
+Total number of frequent items: 622
+
+(Min_sup = 95% / 3036.2)
+Total memory usage: 0.46 MB
+Total execution time: 0.14 seconds
+Total number of frequent items: 77

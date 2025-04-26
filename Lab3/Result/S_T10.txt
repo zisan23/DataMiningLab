@@ -1,0 +1,55 @@
+T10: Total transactions : 100000
+
+Apriori:
+
+(Min_Sup = 3.5%)
+Total memory used by algorithm: 0.16 MB
+Total execution time: 48.50 seconds
+Total number of frequent items: 40
+
+(Min_Sup = 4%)
+Total memory used by algorithm: 0.05 MB
+Total execution time: 16.04 seconds
+Total number of frequent items: 26
+
+(Min_Sup = 4.5%)
+Total memory used by algorithm: 0.04 MB
+Total execution time: 6.82 seconds
+Total number of frequent items: 17
+
+(Min_Sup = 5%)
+Total memory used by algorithm: 0.05 MB
+Total execution time: 2.25 seconds
+Total number of frequent items: 10
+
+(Min_Sup = 5.5%)
+Total memory used by algorithm: 0.03 MB
+Total execution time: 0.83 seconds
+Total number of frequent items: 6
+
+FP_Growth:
+
+(Min_Sup = 3.5% / 3500)
+Total memory usage: 4.97 MB
+Total execution time: 0.52 seconds
+Total number of frequent items: 40
+
+(Min_Sup = 4% / 4000)
+Total memory usage: 1.49 MB
+Total execution time: 0.25 seconds
+Total number of frequent items: 26
+
+(Min_Sup = 4.5% / 4500)
+Total memory usage: 0.43 MB
+Total execution time: 0.21 seconds
+Total number of frequent items: 17
+
+(Min_Sup = 5% / 5000)
+Total memory usage: 0.10 MB
+Total execution time: 0.21 seconds
+Total number of frequent items: 10
+
+(Min_Sup = 5.5% / 5500)
+Total memory usage: 0.05 MB
+Total execution time: 0.19 seconds
+Total number of frequent items: 6

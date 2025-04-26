@@ -1,0 +1,10 @@
+Connect-4: Total transactions : 67557
+
+Apriori:
+
+FP_Growth:
+
+(Min_Sup = 95% / 64179.15)
+Total memory usage: 2.69 MB
+Total execution time: 120.74 seconds
+Total number of frequent items: 2201

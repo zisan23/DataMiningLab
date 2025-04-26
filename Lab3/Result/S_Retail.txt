@@ -1,0 +1,65 @@
+Retail: Total transactions : 88162
+
+Apriori:
+
+(Min_Sup = 2%)
+Total memory used by algorithm: 0.02 MB
+Total execution time: 15.03 seconds
+Total number of frequent items: 55
+
+(Min_Sup = 3%)
+Total memory used by algorithm: 0.53 MB
+Total execution time: 6.18 seconds
+Total number of frequent items: 32
+
+(Min_Sup = 5%)
+Total memory used by algorithm: 0.67 MB
+Total execution time: 1.67 seconds
+Total number of frequent items: 16
+
+(Min_Sup = 8%)
+Total memory used by algorithm: 0.02 MB
+Total execution time: 1.35 seconds
+Total number of frequent items: 13
+
+(Min_Sup = 10%)
+Total memory used by algorithm: 0.43 MB
+Total execution time: 0.87 seconds
+Total number of frequent items: 9
+
+(Min_Sup = 20%)
+Total memory used by algorithm: 0.65 MB
+Total execution time: 0.14 seconds
+Total number of frequent items: 3
+
+FP_Growth:
+
+(Min_Sup = 2% / 1763.24)
+Total memory usage: 0.94 MB
+Total execution time: 0.36 seconds
+Total number of frequent items: 55
+
+(Min_Sup = 3% / 2644.86)
+Total memory usage: 1.36 MB
+Total execution time: 0.31 seconds
+Total number of frequent items: 32
+
+(Min_Sup = 5% / 4408.1)
+Total memory usage: 0.96 MB
+Total execution time: 0.28 seconds
+Total number of frequent items: 16
+
+(Min_Sup = 8% / 7052.96)
+Total memory usage: 0.25 MB
+Total execution time: 0.29 seconds
+Total number of frequent items: 13
+
+(Min_Sup = 10% / 8816.2)
+Total memory usage: 0.16 MB
+Total execution time: 0.28 seconds
+Total number of frequent items: 9
+
+(Min_Sup = 20% / 17632.4)
+Total memory usage: 0.26 MB
+Total execution time: 0.22 seconds
+Total number of frequent items: 3
