@@ -21,20 +21,26 @@ class FPTreeNode:
             child.display(ind + 1)
 
 def build_fp_tree(transactions, min_support):
-    header_table = defaultdict(int)
-    for transaction in transactions:
+    header_table = defaultdict(int) #contains the items of the transactions
+    for transaction in transactions: #item gulo input dea hoise
         for item in transaction:
             header_table[item] += 1
-    header_table = {k: v for k, v in header_table.items() if v >= min_support}
+    header_table = {k: v for k, v in header_table.items() if v >= min_support} #min sup er kom item gulo prune
+    
     if not header_table:
         return None, None
+    
     for key in header_table:
-        header_table[key] = [header_table[key], None]
+        header_table[key] = [header_table[key], None] #item, next and prev node link
+    
     root = FPTreeNode(None, 1, None)
-    for transaction in transactions:
+    
+    for transaction in transactions: #tree te transaction input
         filtered_transaction = [item for item in transaction if item in header_table]
         filtered_transaction.sort(key=lambda x: header_table[x][0], reverse=True)
         insert_tree(filtered_transaction, root, header_table)
+    
+    
     return root, header_table
 
 def insert_tree(items, node, header_table):
@@ -104,10 +110,10 @@ def run_fp_growth(file_path, min_support):
         return 0.0, 0.0, 0
 
 if __name__ == "__main__":
-    file_path = r"C:\Users\Zisan-23\OneDrive\Desktop\Data Mining Lab\Lab2\kosarak.dat"
+    file_path = r"C:\Users\Zisan-23\OneDrive\Desktop\Data Mining Lab\Lab2\a.txt"
     
-    total_transactions = 990002
-    min_support = 495001
+    total_transactions = 5
+    min_support = 3 # Here the minimum support is absolute
     memory_usage, execution_time, total_frequent_items = run_fp_growth(file_path, min_support)
     print(f"(Min_Sup = {min_support*100 / total_transactions:.0f}% / {min_support})")    #(Min_sup = 20% / 1624.8))
     print(f"Total memory usage: {memory_usage:.2f} MB")
