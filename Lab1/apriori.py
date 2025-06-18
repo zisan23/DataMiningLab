@@ -140,9 +140,9 @@ def run_apriori(file_path, min_support):
     return memory_consumption, execution_time, total_frequent_count
 
 if __name__ == "__main__":
-    file_path = r"C:\Users\Zisan-23\OneDrive\Desktop\Data Mining Lab\Lab1\paper.txt"
-    total_transactions = 5
-    min_support = 60 # Here the minimum supprot is relative
+    file_path = r"C:\Users\Zisan-23\OneDrive\Desktop\Data Mining Lab\Lab1\retail.dat"
+    total_transactions = 88162
+    min_support = 20 # Here the minimum supprot is relative
     memory_usage, execution_time, total_frequent_items = run_apriori(file_path, min_support)
     print(f"(Min_Sup = {min_support}%)")
     print(f"Total memory used by algorithm: {memory_usage:.2f} MB")

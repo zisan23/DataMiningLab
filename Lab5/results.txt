@@ -1,0 +1,5 @@
+PrefixSpan Results (Min_Sup = 4)
+Total memory used: 0.00 MB
+Total execution time: 0.11 seconds
+Total frequent patterns found: 22
+

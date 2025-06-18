@@ -1,0 +1,35 @@
+PrefixSpan Results (Min_Sup = 0.8)
+Total memory used: 3.73 MB
+Total execution time: 0.18 seconds
+Total frequent patterns found: 9
+
+PrefixSpan Results (Min_Sup = 0.7)
+Total memory used: 3.91 MB
+Total execution time: 0.21 seconds
+Total frequent patterns found: 27
+
+PrefixSpan Results (Min_Sup = 0.6)
+Total memory used: 4.08 MB
+Total execution time: 0.27 seconds
+Total frequent patterns found: 64
+
+PrefixSpan Results (Min_Sup = 0.5)
+Total memory used: 3.92 MB
+Total execution time: 0.46 seconds
+Total frequent patterns found: 173
+
+PrefixSpan Results (Min_Sup = 0.4)
+Total memory used: 4.16 MB
+Total execution time: 0.83 seconds
+Total frequent patterns found: 518
+
+PrefixSpan Results (Min_Sup = 0.3)
+Total memory used: 4.34 MB
+Total execution time: 1.97 seconds
+Total frequent patterns found: 1928
+
+PrefixSpan Results (Min_Sup = 0.2)
+Total memory used: 6.00 MB
+Total execution time: 5.71 seconds
+Total frequent patterns found: 9718
+

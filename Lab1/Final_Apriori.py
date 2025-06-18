@@ -163,7 +163,7 @@ def run_apriori(file_path, min_support):
 
 if __name__ == "__main__":
     
-    file_path = r"C:\Users\Zisan-23\OneDrive\Desktop\Data Mining Lab\Lab1\b.txt"
+    file_path = r"C:\Users\Zisan-23\OneDrive\Desktop\Data Mining Lab\Lab1\kosarak.txt"
     min_support = 50 # Minimum support realtive
     
     run_apriori(file_path, min_support)

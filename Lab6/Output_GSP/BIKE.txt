@@ -1,0 +1,24 @@
+(Min_Sup = 0.22)
+Total memory used by algorithm: 1.38 MB
+Total execution time: 4.72 seconds
+Total number of frequent items: 2
+(Min_Sup = 0.2)
+Total memory used by algorithm: 2.01 MB
+Total execution time: 9.44 seconds
+Total number of frequent items: 6
+(Min_Sup = 0.15)
+Total memory used by algorithm: 2.04 MB
+Total execution time: 13.13 seconds
+Total number of frequent items: 9
+(Min_Sup = 0.1)
+Total memory used by algorithm: 2.12 MB
+Total execution time: 71.10 seconds
+Total number of frequent items: 23
+(Min_Sup = 0.08)
+Total memory used by algorithm: 2.80 MB
+Total execution time: 119.77 seconds
+Total number of frequent items: 32
+(Min_Sup = 0.05)
+Total memory used by algorithm: 3.65 MB
+Total execution time: 281.77 seconds
+Total number of frequent items: 49
